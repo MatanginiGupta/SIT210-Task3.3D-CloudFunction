@@ -10,13 +10,6 @@
 // If using a board with WiFiNINA, I include the following library.
 #if defined(ARDUINO_SAMD_MKRWIFI1010) || defined(ARDUINO_SAMD_NANO_33_IOT) || defined(ARDUINO_AVR_UNO_WIFI_REV2)
 #include <WiFiNINA.h>
-#elif defined(ARDUINO_SAMD_MKR1000)
-#include <WiFi101.h>
-#elif defined(ARDUINO_ARCH_ESP8266)
-#include <ESP8266WiFi.h>
-#elif defined(ARDUINO_ARCH_ESP32)
-#include <WiFi.h>
-#endif
 
 // I declared the SSID and password of my WiFi network.
 char ssid[] ="matangini gupta's iphone";
